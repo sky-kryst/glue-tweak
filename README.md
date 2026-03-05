@@ -9,4 +9,5 @@
 ## Results:
 tweakcn styles do not apply to glue-stack library as it probably attaches itself to DOM elements and not custom native elements
 ## Further Inspection:
-Maybe the styling library can be made to believe the native components are DOM elements by modifying the tag names during import. This way, hopefully it adds its styles to the component even though some of the styles( accessibility specific) might not be applicable
+1. Maybe the styling library can be made to believe the native components are DOM elements by modifying the tag names during import. This way, hopefully it adds its styles to the component even though some of the styles( accessibility specific) might not be applicable
+2. Can inspect with react-native-reusables library instead of glue-stack
